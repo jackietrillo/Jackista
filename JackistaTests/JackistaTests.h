@@ -7,6 +7,6 @@
 
 #import <XCTest/XCTest.h>
 
-@interface Card_GameTests : XCTestCase
+@interface JackiestaTests : XCTestCase
 
 @end

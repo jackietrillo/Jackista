@@ -22,7 +22,7 @@
 		8223F69D16D95037007F7F73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8223F67416D95037007F7F73 /* UIKit.framework */; };
 		8223F69E16D95037007F7F73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8223F67616D95037007F7F73 /* Foundation.framework */; };
 		8223F6A616D95037007F7F73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8223F6A416D95037007F7F73 /* InfoPlist.strings */; };
-		8223F6A916D95037007F7F73 /* Card_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6A816D95037007F7F73 /* Card_GameTests.m */; };
+		8223F6A916D95037007F7F73 /* JackistaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6A816D95037007F7F73 /* JackistaTests.m */; };
 		825E685C1903349B000EFB1F /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825E685B1903349B000EFB1F /* TabBarController.m */; };
 		82723269170A7F3A00B50A1D /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 82723268170A7F3A00B50A1D /* CardMatchingGame.m */; };
 		829615E71708CA4200E04E30 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 829615E61708CA4200E04E30 /* Card.m */; };
@@ -67,8 +67,8 @@
 		8223F69A16D95037007F7F73 /* JackistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8223F6A316D95037007F7F73 /* JackistaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JackistaTests-Info.plist"; sourceTree = "<group>"; };
 		8223F6A516D95037007F7F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8223F6A716D95037007F7F73 /* Card_GameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card_GameTests.h; sourceTree = "<group>"; };
-		8223F6A816D95037007F7F73 /* Card_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card_GameTests.m; sourceTree = "<group>"; };
+		8223F6A716D95037007F7F73 /* JackistaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JackistaTests.h; sourceTree = "<group>"; };
+		8223F6A816D95037007F7F73 /* JackistaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackistaTests.m; sourceTree = "<group>"; };
 		825E685A19033492000EFB1F /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		825E685B1903349B000EFB1F /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		82723267170A7F3A00B50A1D /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
@@ -176,8 +176,8 @@
 		8223F6A116D95037007F7F73 /* JackistaTests */ = {
 			isa = PBXGroup;
 			children = (
-				8223F6A716D95037007F7F73 /* Card_GameTests.h */,
-				8223F6A816D95037007F7F73 /* Card_GameTests.m */,
+				8223F6A716D95037007F7F73 /* JackistaTests.h */,
+				8223F6A816D95037007F7F73 /* JackistaTests.m */,
 				8223F6A216D95037007F7F73 /* Supporting Files */,
 			);
 			path = JackistaTests;
@@ -364,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8223F6A916D95037007F7F73 /* Card_GameTests.m in Sources */,
+				8223F6A916D95037007F7F73 /* JackistaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

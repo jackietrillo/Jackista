@@ -5,9 +5,9 @@
 //  Copyright (c) 2013 JACKIE TRILLO. All rights reserved.
 //
 
-#import "Card_GameTests.h"
+#import "JackistaTests.h"
 
-@implementation Card_GameTests
+@implementation JackistaTests
 
 - (void)setUp
 {
