@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Card Game
+//  Jackista
 //
 //  Created by JACKIE TRILLO on 2/23/13.
 //  Copyright (c) 2013 JACKIE TRILLO. All rights reserved.
@@ -11,8 +11,8 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+{    
+    
     return YES;
 }
 							

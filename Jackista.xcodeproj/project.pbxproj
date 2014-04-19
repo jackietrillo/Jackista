@@ -18,12 +18,22 @@
 		8223F68B16D95037007F7F73 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8223F68A16D95037007F7F73 /* Default-568h@2x.png */; };
 		8223F68E16D95037007F7F73 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8223F68C16D95037007F7F73 /* MainStoryboard_iPhone.storyboard */; };
 		8223F69116D95037007F7F73 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8223F68F16D95037007F7F73 /* MainStoryboard_iPad.storyboard */; };
-		8223F69416D95037007F7F73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8223F69316D95037007F7F73 /* ViewController.m */; };
-		8223F69C16D95037007F7F73 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8223F69B16D95037007F7F73 /* SenTestingKit.framework */; };
+		8223F69416D95037007F7F73 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8223F69316D95037007F7F73 /* CardGameViewController.m */; };
 		8223F69D16D95037007F7F73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8223F67416D95037007F7F73 /* UIKit.framework */; };
 		8223F69E16D95037007F7F73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8223F67616D95037007F7F73 /* Foundation.framework */; };
 		8223F6A616D95037007F7F73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8223F6A416D95037007F7F73 /* InfoPlist.strings */; };
 		8223F6A916D95037007F7F73 /* Card_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8223F6A816D95037007F7F73 /* Card_GameTests.m */; };
+		825E685C1903349B000EFB1F /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825E685B1903349B000EFB1F /* TabBarController.m */; };
+		82723269170A7F3A00B50A1D /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 82723268170A7F3A00B50A1D /* CardMatchingGame.m */; };
+		829615E71708CA4200E04E30 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 829615E61708CA4200E04E30 /* Card.m */; };
+		829615EA1708CB3800E04E30 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 829615E91708CB3800E04E30 /* PlayingCard.m */; };
+		829615ED1708CD3100E04E30 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 829615EC1708CD3100E04E30 /* Deck.m */; };
+		829615F01708CF5900E04E30 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 829615EF1708CF5900E04E30 /* PlayingCardDeck.m */; };
+		82A892B818D9520600D0F8AC /* spade.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A892B718D9520600D0F8AC /* spade.png */; };
+		82B30CC818DBE68B0080A6E5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B30CC718DBE68B0080A6E5 /* RegisterViewController.m */; };
+		82EB5221178A573000072D33 /* spade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82EB5220178A573000072D33 /* spade.jpg */; };
+		82EB5226178A77F000072D33 /* GameResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EB5225178A77F000072D33 /* GameResultsViewController.m */; };
+		82EB5229178A7AF000072D33 /* GameResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EB5228178A7AF000072D33 /* GameResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +42,19 @@
 			containerPortal = 8223F66916D95037007F7F73 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8223F67016D95037007F7F73;
-			remoteInfo = "Card Game";
+			remoteInfo = Jackista;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8223F67116D95037007F7F73 /* Card Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8223F67116D95037007F7F73 /* Jackista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jackista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8223F67416D95037007F7F73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8223F67616D95037007F7F73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8223F67816D95037007F7F73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8223F67C16D95037007F7F73 /* Card Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Card Game-Info.plist"; sourceTree = "<group>"; };
+		8223F67C16D95037007F7F73 /* Jackista-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jackista-Info.plist"; sourceTree = "<group>"; };
 		8223F67E16D95037007F7F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8223F68016D95037007F7F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8223F68216D95037007F7F73 /* Card Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Card Game-Prefix.pch"; sourceTree = "<group>"; };
+		8223F68216D95037007F7F73 /* Jackista-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jackista-Prefix.pch"; sourceTree = "<group>"; };
 		8223F68316D95037007F7F73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8223F68416D95037007F7F73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8223F68616D95037007F7F73 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -52,14 +62,33 @@
 		8223F68A16D95037007F7F73 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8223F68D16D95037007F7F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8223F69016D95037007F7F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8223F69216D95037007F7F73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8223F69316D95037007F7F73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8223F69A16D95037007F7F73 /* Card GameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card GameTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8223F69B16D95037007F7F73 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8223F6A316D95037007F7F73 /* Card GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Card GameTests-Info.plist"; sourceTree = "<group>"; };
+		8223F69216D95037007F7F73 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		8223F69316D95037007F7F73 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		8223F69A16D95037007F7F73 /* JackistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8223F6A316D95037007F7F73 /* JackistaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JackistaTests-Info.plist"; sourceTree = "<group>"; };
 		8223F6A516D95037007F7F73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8223F6A716D95037007F7F73 /* Card_GameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card_GameTests.h; sourceTree = "<group>"; };
 		8223F6A816D95037007F7F73 /* Card_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card_GameTests.m; sourceTree = "<group>"; };
+		825E685A19033492000EFB1F /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		825E685B1903349B000EFB1F /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		82723267170A7F3A00B50A1D /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		82723268170A7F3A00B50A1D /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		829615E51708CA4200E04E30 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		829615E61708CA4200E04E30 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		829615E81708CB3800E04E30 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		829615E91708CB3800E04E30 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		829615EB1708CD3100E04E30 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		829615EC1708CD3100E04E30 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		829615EE1708CF5900E04E30 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		829615EF1708CF5900E04E30 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		82A892B718D9520600D0F8AC /* spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spade.png; sourceTree = "<group>"; };
+		82B30CC618DBE68B0080A6E5 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		82B30CC718DBE68B0080A6E5 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		82EB5220178A573000072D33 /* spade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spade.jpg; sourceTree = "<group>"; };
+		82EB5224178A77F000072D33 /* GameResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResultsViewController.h; sourceTree = "<group>"; };
+		82EB5225178A77F000072D33 /* GameResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResultsViewController.m; sourceTree = "<group>"; };
+		82EB5227178A7AF000072D33 /* GameResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResult.h; sourceTree = "<group>"; };
+		82EB5228178A7AF000072D33 /* GameResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8223F69C16D95037007F7F73 /* SenTestingKit.framework in Frameworks */,
 				8223F69D16D95037007F7F73 /* UIKit.framework in Frameworks */,
 				8223F69E16D95037007F7F73 /* Foundation.framework in Frameworks */,
 			);
@@ -89,8 +117,8 @@
 		8223F66816D95037007F7F73 = {
 			isa = PBXGroup;
 			children = (
-				8223F67A16D95037007F7F73 /* Card Game */,
-				8223F6A116D95037007F7F73 /* Card GameTests */,
+				8223F67A16D95037007F7F73 /* Jackista */,
+				8223F6A116D95037007F7F73 /* JackistaTests */,
 				8223F67316D95037007F7F73 /* Frameworks */,
 				8223F67216D95037007F7F73 /* Products */,
 			);
@@ -99,8 +127,8 @@
 		8223F67216D95037007F7F73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8223F67116D95037007F7F73 /* Card Game.app */,
-				8223F69A16D95037007F7F73 /* Card GameTests.octest */,
+				8223F67116D95037007F7F73 /* Jackista.app */,
+				8223F69A16D95037007F7F73 /* JackistaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,32 +139,33 @@
 				8223F67416D95037007F7F73 /* UIKit.framework */,
 				8223F67616D95037007F7F73 /* Foundation.framework */,
 				8223F67816D95037007F7F73 /* CoreGraphics.framework */,
-				8223F69B16D95037007F7F73 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8223F67A16D95037007F7F73 /* Card Game */ = {
+		8223F67A16D95037007F7F73 /* Jackista */ = {
 			isa = PBXGroup;
 			children = (
+				82A892B618D94BFB00D0F8AC /* Controllers */,
+				829615F117092DEB00E04E30 /* Models */,
 				8223F68316D95037007F7F73 /* AppDelegate.h */,
 				8223F68416D95037007F7F73 /* AppDelegate.m */,
 				8223F68C16D95037007F7F73 /* MainStoryboard_iPhone.storyboard */,
 				8223F68F16D95037007F7F73 /* MainStoryboard_iPad.storyboard */,
-				8223F69216D95037007F7F73 /* ViewController.h */,
-				8223F69316D95037007F7F73 /* ViewController.m */,
 				8223F67B16D95037007F7F73 /* Supporting Files */,
 			);
-			path = "Card Game";
+			path = Jackista;
 			sourceTree = "<group>";
 		};
 		8223F67B16D95037007F7F73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8223F67C16D95037007F7F73 /* Card Game-Info.plist */,
+				82A892B718D9520600D0F8AC /* spade.png */,
+				82EB5220178A573000072D33 /* spade.jpg */,
+				8223F67C16D95037007F7F73 /* Jackista-Info.plist */,
 				8223F67D16D95037007F7F73 /* InfoPlist.strings */,
 				8223F68016D95037007F7F73 /* main.m */,
-				8223F68216D95037007F7F73 /* Card Game-Prefix.pch */,
+				8223F68216D95037007F7F73 /* Jackista-Prefix.pch */,
 				8223F68616D95037007F7F73 /* Default.png */,
 				8223F68816D95037007F7F73 /* Default@2x.png */,
 				8223F68A16D95037007F7F73 /* Default-568h@2x.png */,
@@ -144,31 +173,65 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8223F6A116D95037007F7F73 /* Card GameTests */ = {
+		8223F6A116D95037007F7F73 /* JackistaTests */ = {
 			isa = PBXGroup;
 			children = (
 				8223F6A716D95037007F7F73 /* Card_GameTests.h */,
 				8223F6A816D95037007F7F73 /* Card_GameTests.m */,
 				8223F6A216D95037007F7F73 /* Supporting Files */,
 			);
-			path = "Card GameTests";
+			path = JackistaTests;
 			sourceTree = "<group>";
 		};
 		8223F6A216D95037007F7F73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8223F6A316D95037007F7F73 /* Card GameTests-Info.plist */,
+				8223F6A316D95037007F7F73 /* JackistaTests-Info.plist */,
 				8223F6A416D95037007F7F73 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		829615F117092DEB00E04E30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				829615EE1708CF5900E04E30 /* PlayingCardDeck.h */,
+				829615EF1708CF5900E04E30 /* PlayingCardDeck.m */,
+				829615EB1708CD3100E04E30 /* Deck.h */,
+				829615EC1708CD3100E04E30 /* Deck.m */,
+				829615E81708CB3800E04E30 /* PlayingCard.h */,
+				829615E91708CB3800E04E30 /* PlayingCard.m */,
+				829615E51708CA4200E04E30 /* Card.h */,
+				829615E61708CA4200E04E30 /* Card.m */,
+				82723267170A7F3A00B50A1D /* CardMatchingGame.h */,
+				82723268170A7F3A00B50A1D /* CardMatchingGame.m */,
+				82EB5227178A7AF000072D33 /* GameResult.h */,
+				82EB5228178A7AF000072D33 /* GameResult.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		82A892B618D94BFB00D0F8AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				825E685B1903349B000EFB1F /* TabBarController.m */,
+				825E685A19033492000EFB1F /* TabBarController.h */,
+				8223F69216D95037007F7F73 /* CardGameViewController.h */,
+				8223F69316D95037007F7F73 /* CardGameViewController.m */,
+				82EB5224178A77F000072D33 /* GameResultsViewController.h */,
+				82EB5225178A77F000072D33 /* GameResultsViewController.m */,
+				82B30CC618DBE68B0080A6E5 /* RegisterViewController.h */,
+				82B30CC718DBE68B0080A6E5 /* RegisterViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8223F67016D95037007F7F73 /* Card Game */ = {
+		8223F67016D95037007F7F73 /* Jackista */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8223F6AC16D95037007F7F73 /* Build configuration list for PBXNativeTarget "Card Game" */;
+			buildConfigurationList = 8223F6AC16D95037007F7F73 /* Build configuration list for PBXNativeTarget "Jackista" */;
 			buildPhases = (
 				8223F66D16D95037007F7F73 /* Sources */,
 				8223F66E16D95037007F7F73 /* Frameworks */,
@@ -178,14 +241,14 @@
 			);
 			dependencies = (
 			);
-			name = "Card Game";
-			productName = "Card Game";
-			productReference = 8223F67116D95037007F7F73 /* Card Game.app */;
+			name = Jackista;
+			productName = Jackista;
+			productReference = 8223F67116D95037007F7F73 /* Jackista.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8223F69916D95037007F7F73 /* Card GameTests */ = {
+		8223F69916D95037007F7F73 /* JackistaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8223F6AF16D95037007F7F73 /* Build configuration list for PBXNativeTarget "Card GameTests" */;
+			buildConfigurationList = 8223F6AF16D95037007F7F73 /* Build configuration list for PBXNativeTarget "JackistaTests" */;
 			buildPhases = (
 				8223F69516D95037007F7F73 /* Sources */,
 				8223F69616D95037007F7F73 /* Frameworks */,
@@ -197,10 +260,10 @@
 			dependencies = (
 				8223F6A016D95037007F7F73 /* PBXTargetDependency */,
 			);
-			name = "Card GameTests";
-			productName = "Card GameTests";
-			productReference = 8223F69A16D95037007F7F73 /* Card GameTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = JackistaTests;
+			productName = JackistaTests;
+			productReference = 8223F69A16D95037007F7F73 /* JackistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,10 +271,16 @@
 		8223F66916D95037007F7F73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "JACKIE TRILLO";
+				TargetAttributes = {
+					8223F67016D95037007F7F73 = {
+						DevelopmentTeam = KWPXT9E7S8;
+					};
+				};
 			};
-			buildConfigurationList = 8223F66C16D95037007F7F73 /* Build configuration list for PBXProject "Card Game" */;
+			buildConfigurationList = 8223F66C16D95037007F7F73 /* Build configuration list for PBXProject "Jackista" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +292,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8223F67016D95037007F7F73 /* Card Game */,
-				8223F69916D95037007F7F73 /* Card GameTests */,
+				8223F67016D95037007F7F73 /* Jackista */,
+				8223F69916D95037007F7F73 /* JackistaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,11 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8223F67F16D95037007F7F73 /* InfoPlist.strings in Resources */,
+				82A892B818D9520600D0F8AC /* spade.png in Resources */,
 				8223F68716D95037007F7F73 /* Default.png in Resources */,
 				8223F68916D95037007F7F73 /* Default@2x.png in Resources */,
 				8223F68B16D95037007F7F73 /* Default-568h@2x.png in Resources */,
 				8223F68E16D95037007F7F73 /* MainStoryboard_iPhone.storyboard in Resources */,
 				8223F69116D95037007F7F73 /* MainStoryboard_iPad.storyboard in Resources */,
+				82EB5221178A573000072D33 /* spade.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +347,16 @@
 			files = (
 				8223F68116D95037007F7F73 /* main.m in Sources */,
 				8223F68516D95037007F7F73 /* AppDelegate.m in Sources */,
-				8223F69416D95037007F7F73 /* ViewController.m in Sources */,
+				8223F69416D95037007F7F73 /* CardGameViewController.m in Sources */,
+				829615E71708CA4200E04E30 /* Card.m in Sources */,
+				829615EA1708CB3800E04E30 /* PlayingCard.m in Sources */,
+				829615ED1708CD3100E04E30 /* Deck.m in Sources */,
+				82B30CC818DBE68B0080A6E5 /* RegisterViewController.m in Sources */,
+				829615F01708CF5900E04E30 /* PlayingCardDeck.m in Sources */,
+				82723269170A7F3A00B50A1D /* CardMatchingGame.m in Sources */,
+				825E685C1903349B000EFB1F /* TabBarController.m in Sources */,
+				82EB5226178A77F000072D33 /* GameResultsViewController.m in Sources */,
+				82EB5229178A7AF000072D33 /* GameResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +373,7 @@
 /* Begin PBXTargetDependency section */
 		8223F6A016D95037007F7F73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8223F67016D95037007F7F73 /* Card Game */;
+			target = 8223F67016D95037007F7F73 /* Jackista */;
 			targetProxy = 8223F69F16D95037007F7F73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,7 +439,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,7 +464,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -395,10 +475,14 @@
 		8223F6AD16D95037007F7F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Card Game/Card Game-Prefix.pch";
-				INFOPLIST_FILE = "Card Game/Card Game-Info.plist";
+				GCC_PREFIX_HEADER = "Jackista/Jackista-Prefix.pch";
+				INFOPLIST_FILE = "Jackista/Jackista-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +490,14 @@
 		8223F6AE16D95037007F7F73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Card Game/Card Game-Prefix.pch";
-				INFOPLIST_FILE = "Card Game/Card Game-Info.plist";
+				GCC_PREFIX_HEADER = "Jackista/Jackista-Prefix.pch";
+				INFOPLIST_FILE = "Jackista/Jackista-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -417,41 +505,41 @@
 		8223F6B016D95037007F7F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Card Game.app/Card Game";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jackista.app/Jackista";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Card Game/Card Game-Prefix.pch";
-				INFOPLIST_FILE = "Card GameTests/Card GameTests-Info.plist";
+				GCC_PREFIX_HEADER = "Jackista/Jackista-Prefix.pch";
+				INFOPLIST_FILE = "JackistaTests/JackistaTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		8223F6B116D95037007F7F73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Card Game.app/Card Game";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jackista.app/Jackista";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Card Game/Card Game-Prefix.pch";
-				INFOPLIST_FILE = "Card GameTests/Card GameTests-Info.plist";
+				GCC_PREFIX_HEADER = "Jackista/Jackista-Prefix.pch";
+				INFOPLIST_FILE = "JackistaTests/JackistaTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8223F66C16D95037007F7F73 /* Build configuration list for PBXProject "Card Game" */ = {
+		8223F66C16D95037007F7F73 /* Build configuration list for PBXProject "Jackista" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8223F6AA16D95037007F7F73 /* Debug */,
@@ -460,21 +548,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8223F6AC16D95037007F7F73 /* Build configuration list for PBXNativeTarget "Card Game" */ = {
+		8223F6AC16D95037007F7F73 /* Build configuration list for PBXNativeTarget "Jackista" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8223F6AD16D95037007F7F73 /* Debug */,
 				8223F6AE16D95037007F7F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8223F6AF16D95037007F7F73 /* Build configuration list for PBXNativeTarget "Card GameTests" */ = {
+		8223F6AF16D95037007F7F73 /* Build configuration list for PBXNativeTarget "JackistaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8223F6B016D95037007F7F73 /* Debug */,
 				8223F6B116D95037007F7F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

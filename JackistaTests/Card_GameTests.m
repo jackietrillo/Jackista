@@ -1,6 +1,5 @@
 //
 //  Card_GameTests.m
-//  Card GameTests
 //
 //  Created by JACKIE TRILLO on 2/23/13.
 //  Copyright (c) 2013 JACKIE TRILLO. All rights reserved.
@@ -26,7 +25,8 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in Card GameTests");
+    //STFail(@"Unit tests are not implemented yet in JackistaTests");
+    
 }
 
 @end
