@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="cAU-JF-YnT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="cAU-JF-YnT">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Register View Controller-->
@@ -22,12 +22,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jackista!" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VR5-zA-waZ">
-                                <rect key="frame" x="88" y="83" width="108" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bWr-6e-sDO">
                                 <rect key="frame" x="0.0" y="379" width="320" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,15 +43,21 @@
                                     <segue destination="0cf-qo-JfE" kind="modal" modalTransitionStyle="crossDissolve" id="Cpu-rR-DEm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jackista!" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VR5-zA-waZ">
+                                <rect key="frame" x="106" y="83" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zwl-Fy-gmp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2008" y="-695"/>
+            <point key="canvasLocation" x="-2386" y="-1601"/>
         </scene>
-        <!--Game Results View Controller - Results-->
+        <!--Results-->
         <scene sceneID="hNL-l0-lzV">
             <objects>
                 <viewController id="f3g-Xv-VBn" customClass="GameResultsViewController" sceneMemberID="viewController">
@@ -104,7 +104,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gcn-0U-DlI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1071" y="-396"/>
+            <point key="canvasLocation" x="-1797" y="-1392"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="c8S-9h-OpI">
@@ -123,9 +123,9 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgY-tz-t8e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1454" y="-1036"/>
+            <point key="canvasLocation" x="-1840" y="-2192"/>
         </scene>
-        <!--Card Game View Controller - Game-->
+        <!--Game-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="CardGameViewController" sceneMemberID="viewController">
@@ -477,7 +477,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="v8P-Wz-Pk4"/>
             </objects>
-            <point key="canvasLocation" x="-928" y="-1067"/>
+            <point key="canvasLocation" x="-1348" y="-2065"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6L6-nC-1S1">
@@ -506,16 +506,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9W0-qW-eOT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="nTp-Rv-PUw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-229" y="-847"/>
+            <point key="canvasLocation" x="-861" y="-1713"/>
         </scene>
     </scenes>
     <resources>
         <image name="spade.png" width="30" height="30"/>
     </resources>
-    <color key="tintColor" red="0.73108440900000005" green="0.051962940309999997" blue="0.1053191426" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" red="0.73108440900000005" green="0.051962940309999997" blue="0.1053191426" alpha="1" colorSpace="calibratedRGB"/>
 </document>
