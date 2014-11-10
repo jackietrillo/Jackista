@@ -13,13 +13,13 @@
 
 @interface CardGameViewController ()
 @property (nonatomic) int flipCount;
-@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
-@property (strong, nonatomic) CardMatchingGame *game;
-@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
-@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
-@property (weak, nonatomic) IBOutlet UILabel *displayLabel;
-@property (weak, nonatomic) IBOutlet UITabBarItem *tabItem;
-@property (strong, nonatomic) GameResult *gameResult;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray* cardButtons;
+@property (strong, nonatomic) CardMatchingGame* game;
+@property (weak, nonatomic) IBOutlet UILabel* scoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel* flipsLabel;
+@property (weak, nonatomic) IBOutlet UILabel* displayLabel;
+@property (weak, nonatomic) IBOutlet UITabBarItem* tabItem;
+@property (strong, nonatomic) GameResult* gameResult;
 @end
 
 @implementation CardGameViewController
@@ -60,7 +60,7 @@
     return _game;
 }
 
-- (GameResult *)gameResult
+- (GameResult*)gameResult
 {
     if (!_gameResult)
     {

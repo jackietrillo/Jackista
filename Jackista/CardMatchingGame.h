@@ -14,7 +14,6 @@
 @property (strong, nonatomic) NSString *displayText;
 
 - (id)initWithCardCount:(NSUInteger) cardCount usingDeck: (Deck*)deck;
-
 - (void)flipCardAtIndex:(NSUInteger) index;
 - (Card *)cardAtIndex:(NSUInteger)index;
 

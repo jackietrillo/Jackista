@@ -11,8 +11,8 @@
 @interface GameResult : NSObject
 
 +(NSMutableArray *)allGameResults;
-@property (readonly, nonatomic) NSDate *start;
-@property (readonly, nonatomic) NSDate *end;
+@property (readonly, nonatomic) NSDate* start;
+@property (readonly, nonatomic) NSDate* end;
 @property (readonly, nonatomic) NSTimeInterval duration;
 @property (readwrite) int score;
 @end
