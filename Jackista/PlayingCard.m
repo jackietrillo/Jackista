@@ -10,72 +10,73 @@
 
 @implementation PlayingCard
 
--(int)match:(NSArray*) otherCards
-{
-    int score = 0;
-    
-    if(otherCards.count == 1)
-    {
-        PlayingCard *otherCard = [otherCards lastObject];
-        if ([self.suit isEqualToString:otherCard.suit])
-        {
-            score = 1;
-        }
-        else if (self.rank == otherCard.rank)
-        {
-            score = 4;  
-        }
-    }
-    
-    return score;
-}
-
 - (NSString *)contents
 {
-    NSArray *rankStrings = [PlayingCard rankStrings];
+    NSArray *rankStrings = [PlayingCard validRanks];
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
-@synthesize suit = _suit; // because we provide setter AND getter
-@synthesize rank = _rank;
+@synthesize suit = suit1; // because we provide setter AND getter
+@synthesize rank = rank1;
 
 + (NSArray *)validSuits
 {
     return @[@"♥",@"♦",@"♠",@"♣"];
 }
 
-+ (NSArray *)rankStrings
++ (NSArray *)validRanks
 {
     return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];
 }
 
 + (NSUInteger)maxRank
 {
-    return [self rankStrings].count-1;
+    return [self validRanks].count-1;
 }
 
-- (void)setSuit:(NSString *)suit
-{
-    if ([[PlayingCard validSuits] containsObject:suit]) {
-        _suit = suit;
-    }
-}
 - (NSString *)suit
 {
-    return _suit ? _suit : @"?";
+    return suit1 ? suit1 : @"?";
+}
+
+- (void)setSuit:(NSString*)value
+{
+    if ([[PlayingCard validSuits] containsObject:value]) {
+        suit1 = value;
+    }
 }
 
 - (NSUInteger)rank
 {
-    return _rank;
+    return rank1;
 }
 
-- (void)setRank:(NSUInteger)rank
+- (void)setRank:(NSUInteger)value
 {
-    if (rank <= [PlayingCard maxRank])
+    if (value <= [PlayingCard maxRank])
     {
-        _rank = rank;
+        rank1 = value;
     }
+}
+
+-(int)match:(NSArray*) otherCards
+{
+    int score = 0;
+    
+    if(otherCards.count == 1)
+    {
+        PlayingCard* otherCard = [otherCards lastObject];
+        if ([self.suit isEqualToString:otherCard.suit])
+        {
+            score = 1;
+        }
+        else if (self.rank == otherCard.rank)
+        {
+            score = 4;
+        }
+    }
+    
+    return score;
 }
 
 @end

@@ -11,13 +11,21 @@
 
 @interface PlayingCard : Card
 
-@property (strong, nonatomic) NSString *suit;
+//suit value of card
+@property (strong, nonatomic) NSString* suit;
+//rank value of card
 @property NSUInteger rank;
 
--(int)match:(NSArray*) otherCards;
-
-+ (NSArray *)rankStrings;
+//returns the maximum rank
 + (NSUInteger)maxRank;
-+ (NSArray *)validSuits;
+
+//returns an array of valid suits
++ (NSArray*)validSuits;
+
+//returns an array of valid ranks
++ (NSArray*)validRanks;
+
+//checks if there is a match and returns the points
+-(int)match:(NSArray*) otherCards;
 
 @end

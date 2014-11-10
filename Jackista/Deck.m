@@ -32,9 +32,9 @@
     }
 }
 
-- (Card *)drawRandomCard
+- (Card*)drawRandomCard
 {
-    Card *randomCard = nil;
+    Card* randomCard = nil;
     if (self.cards.count > 0)
     {
         unsigned index = arc4random() % self.cards.count;

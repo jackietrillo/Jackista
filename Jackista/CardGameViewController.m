@@ -36,7 +36,7 @@
 {
     [super viewDidLoad];
     
-    _tabItem.title = @"Machismo ";
+    _tabItem.title = @"Jackista";
     
 }
 - (int)getFlipCount
@@ -51,7 +51,7 @@
     NSLog(@"flips updated to %d", self.flipCount);
 }
 
-- (CardMatchingGame *)game
+- (CardMatchingGame*)game
 {
     if (!_game)
     {
@@ -77,7 +77,7 @@
 
 - (void)updateUI
 {
-    for (UIButton *cardButton in self.cardButtons)
+    for (UIButton* cardButton in self.cardButtons)
     {
         Card *card = [self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
         [cardButton setTitle:card.contents forState:UIControlStateSelected];
